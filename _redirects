@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+http://philosocode.netlify.com/* http://www.philosocode.com/:splat 301!
