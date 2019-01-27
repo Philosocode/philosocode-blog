@@ -26,7 +26,7 @@ You can download it [here](https://code.visualstudio.com) or by searching for it
 Lessons on HTML, CSS, and JavaScript will be weaved throughout the course. Instead of completely studying HTML, then moving onto CSS, and so on, we'll be covering all three simultaneously. This approach will be more difficult and progress will be slower, but you will also learn more as a result (feel free to Google "interleaving" for more information).
 
 As Confucius supposedly said, *"Knowledge without practice is useless"*. Some lessons will be theoretical. In others, we will be building projects together. 
-Each lesson will come with practice questions and challenges, so there will plenty of chances to put what you learned into practice, 
+Each lesson will come with practice questions and challenges, so there will plenty of chances for you to put what you learned into practice.
 
 
 ## Let The Journey Begin
