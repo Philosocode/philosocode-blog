@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-comments: true
+# comments: true
 ---
 The goal of Philosocode.com is to provide the best tutorials related to programming and computer science.  
 My mission is to create the clearest, easiest to understand, and most comprehensive lessons available on programming, computer science, and modern web development.
