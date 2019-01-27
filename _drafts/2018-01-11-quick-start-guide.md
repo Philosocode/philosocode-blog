@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Quick Start Guide"
-author: sal
+author: Tam
 categories: [ jekyll ]
-image: assets/images/test.jpg
-featured: true
-hidden: true
+# image: assets/images/test.jpg
+# featured: true
+# hidden: true
 ---
 
 ## Special formatting
