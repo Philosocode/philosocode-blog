@@ -110,7 +110,7 @@ HTML elements can be "nested", meaning they can be put inside of each other.
 	<h1>Hello</h1>
 </div>
 ```
-Here, we have a `<div>` wrapped around a `<h1>`. 
+Here, we have a `<div>` wrapped around a `<h1>`
 We will be learning about `<div>` later. For now, just know that it's like a container for other tags.
 Note that nesting follows the same pattern as before: `<tag> content </tag>`.
 But this time, "content" is another element. The nesting doesn't stop there. Another example:
@@ -224,8 +224,12 @@ As Confucius (supposedly) said, *"Knowledge without practice is useless"*.
 At the end of each lesson, there will be challenges for you to complete. Please try to complete all of them before you move onto the next lesson. 
 
 ### Flashcards
-Download the flashcards for this lesson by [clicking here](https://drive.google.com/file/d/1Oqh1q37D2TrlegIZUhiQ1ZA_BEPuyApt/view?usp=sharing).
-To use the flash cards, you need to install a program called Anki, which you can [download here](https://apps.ankiweb.net). Once you've signed up for an account, all you have to do is double click on the deck and the flash cards should be added.
+Download the flashcards for this lesson [here](https://drive.google.com/file/d/1Oqh1q37D2TrlegIZUhiQ1ZA_BEPuyApt/view?usp=sharing).
+To use the flash cards, make sure you've setup Anki. If you haven't go back to the [Getting Started lesson]({% post_url courses/web-hero/2019-01-26-getting-started %}) for instructions.
+
+Once you've signed up for an account, all you have to do is open the app **on your comptuer** and double click on the deck you just downloaded.
+The flash cards should then be added.
+
 
 ### Challenge: Element Experiment
 1. Go to this site: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
