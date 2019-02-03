@@ -223,6 +223,10 @@ As Confucius (supposedly) said, *"Knowledge without practice is useless"*.
 
 At the end of each lesson, there will be challenges for you to complete. Please try to complete all of them before you move onto the next lesson. 
 
+### Flashcards
+Download the flashcards for this lesson by [clicking here](https://drive.google.com/file/d/1Oqh1q37D2TrlegIZUhiQ1ZA_BEPuyApt/view?usp=sharing).
+To use the flash cards, you need to install a program called Anki, which you can [download here](https://apps.ankiweb.net). Once you've signed up for an account, all you have to do is double click on the deck and the flash cards should be added.
+
 ### Challenge: Element Experiment
 1. Go to this site: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 2. Find 5 **NEW** elements that interest you (I'd recommend elements related to text; they'll be easier to work with)
