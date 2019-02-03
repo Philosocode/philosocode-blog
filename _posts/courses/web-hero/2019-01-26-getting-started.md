@@ -4,7 +4,7 @@ title:  "Getting Started"
 author: Tam
 categories: [ web-hero ]
 comments: true
-image: assets/images/test.jpg
+image: assets/images/web-hero/html/0-getting-started.jpg
 # featured: true
 # hidden: true
 ---
@@ -15,11 +15,15 @@ image: assets/images/test.jpg
   2. Teach you everything you need to know to start programming and build your own web-based projects.
 
 
+## What Do I Need To Know?
+We will start from the very beginning. 
+I will assume that you know nothing about programming, so as long as you're generally familiar with how to use a computer, you will be okay.
+
 ## Setup
 The first thing you'll need is a browser... Well, if you're reading this, I guess you already have that. If you don't have a preference, I would recommend using Google Chrome because it will make following along with the lessons easier. However, most modern browsers should be okay.
 
 You'll also need a text editor (program to write code in). I would recommend getting "VS Code", which is awesome and free to use.
-You can download it [here](https://code.visualstudio.com) or by searching for it on Google. If you don't want to use VS Code, "Atom" (free) or "Sublime Text" are also great text editors.
+You can download it [here](https://code.visualstudio.com) or by searching for it on Google. There are other great text editors out there, but for this tutorial, I will assume that you are using VS Code.
 
 
 ## Course Format

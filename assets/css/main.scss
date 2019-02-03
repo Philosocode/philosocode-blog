@@ -8,6 +8,16 @@
 	display:inline;
 }
 
+code {
+	// background: rgb(247, 247, 247);
+	color: #E22E12;
+	font-size: 1.2rem;
+}
+
+pre {
+	tab-size: 2;
+}
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
 	"syntax"
