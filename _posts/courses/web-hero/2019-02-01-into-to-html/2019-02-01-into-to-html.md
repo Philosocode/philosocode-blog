@@ -225,7 +225,7 @@ At the end of each lesson, there will be challenges for you to complete. Please 
 
 ### Flashcards
 Download the flashcards for this lesson [here](https://drive.google.com/file/d/1Oqh1q37D2TrlegIZUhiQ1ZA_BEPuyApt/view?usp=sharing).
-To use the flash cards, make sure you've setup Anki. If you haven't setup Anki, go back to the [Getting Started lesson]({% post_url courses/web-hero/2019-01-26-getting-started %}) for instructions.
+To use the flash cards, make sure you've setup Anki. If you haven't setup Anki, go back to [Getting Started]({% post_url courses/web-hero/2019-01-26-getting-started %}) for instructions.
 
 Once you've signed up for an account, all you have to do is open the app **on your comptuer** and double click on the deck you just downloaded.
 The flash cards should then be added.
@@ -235,7 +235,7 @@ The flash cards should then be added.
 1. Go to this site: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 2. Find 5 **NEW** elements that interest you (I'd recommend elements related to text; they'll be easier to work with)
 3. Try and use them in CodePen. Read about their usage on the website linked in step 1.
-4. Share your project in the comments below or by emailing me at [tam@philosocode.com](mailto:tam@philosocode.com)
+4. Share your project in the comments below
 
 
 ## Sources
