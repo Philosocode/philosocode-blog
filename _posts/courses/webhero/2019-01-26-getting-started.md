@@ -2,9 +2,9 @@
 layout: post
 title:  "Getting Started"
 author: Tam
-categories: [ web-hero ]
+categories: [ webhero ]
 comments: true
-image: assets/images/web-hero/html/0-getting-started.jpg
+image: assets/images/webhero/html/0-getting-started.jpg
 # featured: true
 # hidden: true
 ---
