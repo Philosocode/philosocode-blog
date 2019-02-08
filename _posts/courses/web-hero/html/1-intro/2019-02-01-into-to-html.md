@@ -9,7 +9,7 @@ image: assets/images/web-hero/html/1-html-code.jpg
 ---
 
 ## Overview
-Here's what we will learn about this lesson:
+Here's what we're going to learn this lesson:
 - HTML and why it's important
 - HTML elements: nesting, empty elements, case-insensitivity, new lines
 - CodePen
@@ -17,14 +17,37 @@ Here's what we will learn about this lesson:
 ***
 
 ## What is HTML?
-HTML is a language used to build web pages. You use it for the content and structure of your web page.
-HTML stands for "hypertext markup language". That's... kind of confusing, so how about we break that down?
+HTML is a language for building web pages. It's used for the content and structure of the web page.
+HTML stands for "hypertext markup language". 
+That's... kind of confusing, so how about we break that down?
 
-"Hypertext" means, "text that links to something". Think about links on websites (hyperlinks): when you click on them, they take you somewhere else.
-For example, if you [click on this text](https://www.google.com), it'll take you to Google. Text that links to something - hypertext.
+"Hypertext" means, "text that links to something". 
+Think about links on websites - hyperlinks. 
+When you click on them, they take you somewhere else.
+For example, if you [click on this text right here](https://www.google.com), it'll take you to Google. 
+So, hypertext is just text that links to something.
 
-"Markup language" means, "language that uses tags". It's similar to a programming language, but it uses "tags".
-For example, look at the HTML code below. Don't worry if you don't understand it right now. After the next few lessons, you will!
+"Markup language" means, "language that uses tags to markup documents".
+
+Let's say you're *sooo* excited about programming that you decide to write an essay about HTML.
+When you're done, you send it to me so I can correct it and grade you on your enthusiasm for web development.
+Before I send it back to you, I can highlight the parts that need improvement, underline spelling and grammar mistakes, and emphasize the parts I like.
+
+Those are the two sides of the coin.
+1. The text content/ words that you write
+2. The markup I add to the content
+
+That's what markup languages do. 
+They use tags to tell the computer how to organize and markup the text.
+
+Do you want to emphasize some text? 
+Add some line breaks? 
+Style some text differently? 
+Organize your text inside of lists or tables?
+
+You can do all of this (and much more) using HTML.
+
+Now, look at the HTML code below. Don't worry if you don't understand it right now. After the next few lessons, you will!
 
 ``` html
 <!DOCTYPE html>
@@ -39,27 +62,29 @@ For example, look at the HTML code below. Don't worry if you don't understand it
 </html>
 ```
 
-Notice the "tags" like `<h1>`. They start and end with angle brackets ("arrows" `<>`) and there's a word inside.
-That's all a "markup language" is, using these `<tag></tag>` things to create documents.
+Notice the "tags" like `<h1>`. 
+They start and end with angle brackets ("arrows" `<>`). 
+There are letters and numbers inside of each `<tag>`
 
 
 ## Why is HTML important?
 You **need** HTML to build a web page. You can make a website without CSS, though it won't look very nice. 
 You can also make a website without JavaScript, though it won't be "interactive". But HTML is essential.
 
-Don't worry if you don't know what CSS and JavaScript are - we will learn these in future lessons!
+Don't worry if you don't know what CSS and JavaScript are - you'll learn about these in future lessons!
 
 The main point: HTML is necessary. It's the backbone of your web page.
 
 
 ## Let's Dive In
-We're going to start writing code. Yes, right now. Please visit this link: [click on me!](https://codepen.io/pen/).  
-This is a free, online code editor. I know I asked you to download VS Code, but CodePen is great for starting out.
-You can write code and the results will show up (almost) instantly. 
-You don't need an account to use it, but if you want to save the code, or if you just like the website, feel free to make one.
+Let's start writing code. 
+Please visit this link: [click on me!](https://codepen.io/pen/).  
+This is CodePen, a free, online code editor.
+I know I asked you to download VS Code, but CodePen is great for starting out. You can write code and the results will show up (almost) instantly on the screen.  
+You don't need to make an account on CodePen unless you want to save your code.
 
 When you open the site, you should see 3 windows: HTML, CSS, JS.  
-We will only be using the HTML window, so feel free to resize the other windows by clicking and dragging the bars and moving them to the right.
+You'll only be using the HTML window, so resize the other windows by clicking and dragging the bars and moving them to the right.
 ![codepen](codepen-1.jpg)
 
 Now, I want you to do 3 things:
@@ -67,13 +92,17 @@ Now, I want you to do 3 things:
 	2. Once you're done, explain what happened in your own words.
 	3. Repeat until finished
 
-So in the HTML box, type this: 
+In the HTML box, type this: 
 ```
 <h1>Intro to HTML</h1>
 ```
-What happened? If nothing happened, make sure you typed in the `<tags>` correctly. Be careful with the backslash, /, in the last tag. 
+What happened? If nothing happened, make sure you typed in the `<tags>` correctly. Be careful with the forward slash  **/**  in the last tag. 
 
-If everything went well, you should see "Intro to HTML" in large text.  
+If everything went well, you should see "Intro to HTML" in big, bold text.  
+
+<h1>Intro to HTML</h1>
+<br>
+
 Now, add these lines below the `<h1>`. Remember to explain in your own words what happens.
 
 ``` html
@@ -96,11 +125,30 @@ What happened? If you typed it correctly, you should see something like this:
 ## HTML Elements
 Now that you've had a taste of HTML, let's take a closer look.
 
-HTML documents are made up of "elements".  
+HTML documents are made up of these "elements".  
 An HTML element has 3 parts:
 1. Opening Tag `<h1>`
 2. Stuff inside `<h1>Intro to HTML`
 3. Closing Tag `<h1>Intro to HTML</h1>`
+
+It's like making a (code) sandwich.
+You have two slices of bread - the opening and closing tag.
+You also put stuff in between (ham, lettuce, cheese, etc). 
+That's the content inside of the tags, the content of the element.
+
+
+#### Your Turn: Create 3 Random Elements
+You can use whatever words or numbers you want.  
+I've listed an example below.  
+Note that these are not actually HTML elements! If you put them into CodePen and nothing will happen. 
+
+This is just for getting used to writing HTML elements.
+
+```html
+<cat1>Meow</cat1>
+<dog1>Woof</dog1>
+<mypet2000000>My Pet</mypet2000000>
+```
 
 
 ## Nesting
@@ -110,8 +158,8 @@ HTML elements can be "nested", meaning they can be put inside of each other.
 	<h1>Hello</h1>
 </div>
 ```
-Here, we have a `<div>` wrapped around a `<h1>`
-We will be learning about `<div>` later. For now, just know that it's like a container for other tags.
+Here, we have an `<h1>` inside of a `<div>`
+You'll learn about `<div>` later. For now, just know that it's like a container for other tags.
 Note that nesting follows the same pattern as before: `<tag> content </tag>`.
 But this time, "content" is another element. The nesting doesn't stop there. Another example:
 
@@ -126,7 +174,8 @@ But this time, "content" is another element. The nesting doesn't stop there. Ano
 </div>
 ```
 
-Again, we'll cover all these elements (and more) later. But for now, I hope you understand how nesting works.
+Again, we'll cover all these elements (and more) later. 
+But for now, I hope you understand how nesting works.
 
 
 ## Empty Elements
@@ -158,14 +207,16 @@ Once you've come up with an answer, type the code in CodePen.
 <STRONG>Some Text</STRONG>
 
 As you can see, `<strong>` is the same as `<STRONG>`.  
-It's also the same as `<Strong>`, `<STrOnG>`, etc.  
+`<strong>` is also the same as `<Strong>`, `<STrOnG>`, etc.  
 All these elements do the same thing; the capitalization doesn't change the result.
-However, it is best practice to use lowercase tags. 
+However, it's "best practice" (best way to do something) to use lowercase tags. 
 Go back and look at all the HTML tags you've seen so far. All the tags are in lowercase.
 
 
 ## New Lines
-Okay, how about these two pieces of code:
+Okay, how about these two pieces of code?  
+Do they do the same thing or not?
+
 ```html
 <div><h1>Hello, World</h1></div>
 
@@ -173,8 +224,9 @@ Okay, how about these two pieces of code:
 	<h1>Hello, World</h1>
 </div>
 ```
-What do you think: same or different? Type the code block into CodePen and see what happens.
-Yeah, both of them produced the same result.
+Type the code block into CodePen and see what happens.
+
+Yeah, both of them produced the same result.  
 Now, I have another question: which way do you think is better?
 
 In the example above, there isn't a huge difference. But what about this:
@@ -185,7 +237,7 @@ This is the code from the beginning of this lesson. Tough to read, right?
 But if you put each element on a new line and indent it, it becomes much easier to understand (well, once you know what each element means).
 Here's the code from the beginning again:
 
-``` html
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -201,7 +253,8 @@ Here's the code from the beginning again:
 ***
 
 ## Summary
-Good job making it through the first lesson! You should be able to recognize some elements now, but there is still much, much more to learn! 
+Good job making it through the first lesson! 
+You should be able to recognize a few HTML elements now, but there is still much, much more to learn! 
 This is a small, but important step on your journey to becoming a web developer.
 
 Here's what we covered this lesson:
@@ -212,31 +265,56 @@ Here's what we covered this lesson:
 - elements can be nested
 - empty elements: elements without content or closing tag, `<br>`
 - elements are case-insensitive; best standard is lowercase
-- use new lines and indents to make HTML code readable
+- use new lines and indents to make HTML code easier to understand
 
-If there was anything you didn't understand, please leave a comment and I'll do my best to explain it better.
+Was there anything you found difficult or had trouble understanding?
+Anything you think I can do better in this lesson?  
+Please leave a comment and I'll do my best to reply as soon as I can!
 
 
 ## Praxis
-Studying is great and all, but you know what really helps with learning? Practice.
-As Confucius (supposedly) said, *"Knowledge without practice is useless"*.
+Studying is great and all, but you know what really helps with learning? 
+
+Practice.  
+
+As Confucius (supposedly) said, *"Knowledge without practice is useless"*
 
 At the end of each lesson, there will be challenges for you to complete. Please try to complete all of them before you move onto the next lesson. 
 
-### Flashcards
+#### Flashcards
 Download the flashcards for this lesson [here](https://drive.google.com/file/d/1Oqh1q37D2TrlegIZUhiQ1ZA_BEPuyApt/view?usp=sharing).
 To use the flash cards, make sure you've setup Anki. If you haven't setup Anki, go back to [Getting Started]({% post_url courses/web-hero/2019-01-26-getting-started %}) for instructions.
 
 Once you've signed up for an account, all you have to do is open the app **on your comptuer** and double click on the deck you just downloaded.
 The flash cards should then be added.
 
+#### Challenge: Find The Errors
+For each snippet of code, figure out what's wrong.
 
-### Challenge: Element Experiment
+```html
+<h1>I am some HTML<h1>
+<h2>But something is wrong...<h2>
+```
+
+```html
+<div>
+	<h1>What about now?
+	</div>
+</h1>
+```
+
+```html
+<div>I am some html<h1>This is a very nice line</h1><h2>But it's starting to get too long</h2></div>
+```
+
+
+#### Challenge: Element Experiment
 1. Go to this site: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 2. Find 5 **NEW** elements that interest you (I'd recommend elements related to text; they'll be easier to work with)
 3. Try and use them in CodePen. Read about their usage on the website linked in step 1.
-4. Share your project in the comments below
+4. (OPTIONAL) Share your project URL in the comments below. You need a CodePen account to do this.
 
+***
 
 ## Sources
 - [MDN - Getting Started With HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
