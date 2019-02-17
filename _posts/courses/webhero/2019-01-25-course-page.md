@@ -4,7 +4,7 @@ title:  "COURSE: Web Hero"
 author: Tam
 categories: [ webhero ]
 permalink: courses/webhero
-image: assets/images/webhero/html/0-getting-started.jpg
+image: assets/images/webhero/html/course-image.jpg
 featured: true
 hidden: true
 ---
@@ -15,4 +15,4 @@ You will learn a lot, starting with basic webpages and progressing towards more 
 
 ## Intro
 1. [Getting Started]({% post_url courses/webhero/2019-01-26-getting-started %})
-2. [Intro to HTML]({% post_url courses/webhero/html/1-intro/2019-02-01-into-to-html %})
+2. [Intro to HTML]({% post_url courses/webhero/html/1-intro/2019-02-01-intro-to-html %})

@@ -3,7 +3,7 @@ layout: post
 title:  "Intro to HTML"
 categories: [ webhero ]
 comments: true
-image: assets/images/webhero/html/1-html-code.jpg
+image: assets/images/webhero/html/course-image.jpg
 # featured: true
 # hidden: true
 ---
@@ -34,11 +34,11 @@ When you're done, you send it to me so I can correct it and grade you on your en
 Before I send it back to you, I can highlight the parts that need improvement, underline spelling and grammar mistakes, and emphasize the parts I like.
 
 Those are the two sides of the coin.
-1. The text content/ words that you write
-2. The markup I add to the content
+1. The text content / words that you write
+2. The "markup" I add to the content
 
 That's what markup languages do. 
-They use tags to tell the computer how to organize and markup the text.
+They use tags to tell the computer how to organize and format the text.
 
 Do you want to emphasize some text? 
 Add some line breaks? 
@@ -96,7 +96,8 @@ In the HTML box, type this:
 ```
 <h1>Intro to HTML</h1>
 ```
-What happened? If nothing happened, make sure you typed in the `<tags>` correctly. Be careful with the forward slash  **/**  in the last tag. 
+What happened? If nothing happened, make sure you typed in the `<tags>` correctly. 
+Be careful with the forward slash  **/**  in the last tag. 
 
 If everything went well, you should see "Intro to HTML" in big, bold text.  
 
