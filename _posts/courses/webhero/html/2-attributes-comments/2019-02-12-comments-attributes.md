@@ -263,7 +263,8 @@ Here's what we covered this lesson:
   + boolean attributes: `<input disabled />` equals `<input disabled="" />`
 
 Well done on making it through the second lesson. By now, you should be familiar with HTML elements, attributes, and comments.  
-In the next lesson, we'll be covering the "head" of an HTML document. See you there!
+If there was anything you didn't understand, need help with, or think I could explain better, please let me know!
+I'll reply as soon as I can.
 
 
 ## There Are Too Many Things To Remember!
@@ -276,7 +277,7 @@ Want to know how to use an attribute? Google it!
 
 Even though these are the basics of HTML, I had to Google a lot of things while writing this guide.
 If there's anything you're stuck with, or anything you want to know, or anything you've forgotten...  
-You know what to do 😉 (that, or leave a comment and I'll reply as soon as I can)
+You know what to do 😉.
 
 ## Praxis
 #### Flashcards
