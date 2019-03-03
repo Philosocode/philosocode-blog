@@ -8,9 +8,15 @@
 	display:inline;
 }
 
+hr {
+	border: none;
+	height: 1.3px;
+	background: #ddd;
+}
+
 code {
-	// background: rgb(247, 247, 247);
-	color: #E22E12;
+	color: #00B27D;
+	font-family: "Roboto Mono", Menlo, monospace;
 	font-size: 1.1rem;
 }
 
@@ -19,6 +25,5 @@ pre {
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-	"syntax"
-;
+@import "syntax";
+@import "panel";

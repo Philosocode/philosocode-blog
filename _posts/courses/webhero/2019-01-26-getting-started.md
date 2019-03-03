@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-imageless
 title:  "Getting Started"
 author: Tam
 categories: [ webhero ]

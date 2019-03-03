@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-imageless
 title: "HTML Comments and Attributes"
 categories: [webhero]
 comments: true

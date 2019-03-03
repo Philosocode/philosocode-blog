@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-imageless
 title:  "Intro to HTML"
 categories: [ webhero ]
 comments: true
@@ -11,7 +11,7 @@ image: assets/images/webhero/html/course-image.jpg
 ## Overview
 Here's what we're going to learn this lesson:
 - HTML and why it's important
-- HTML elements: nesting, empty elements, case-insensitivity, new lines
+- HTML elements: nesting, void elements, case-insensitivity, new lines
 - CodePen
 
 ***
@@ -179,11 +179,10 @@ Again, we'll cover all these elements (and more) later.
 But for now, I hope you understand how nesting works.
 
 
-## Empty Elements
-Some elements don't have closing tags.
-For example, one empty element is `<br>`, which represents a line break (new line).
-Note that it doesn't have any content or closing tag.
-
+## Void Elements
+Some elements don't have a closing tag.  
+For example, `<br>` is a void element that represents a line break (new line).
+Notice that it doesn't have any content or closing tag.
 Type this into CodePen and see what happens.
 
 ```html
@@ -191,6 +190,23 @@ Type this into CodePen and see what happens.
 <br>
 <p>After Line Break</p>
 ```
+
+Here are some more examples (we'll learn more about them later):
+```html
+<img>
+<input>
+<link>
+```
+
+Void tags can also be written like this:
+```html
+<br />
+<img />
+<input />
+<link />
+```
+
+So just pick the style you like the best.
 
 
 ## Case Insensitive
@@ -264,7 +280,7 @@ Here's what we covered this lesson:
 - typing code in CodePen
 - HTML element format: `<h1>Hello World</h1>`
 - elements can be nested
-- empty elements: elements without content or closing tag, `<br>`
+- void elements: elements without content or closing tag, `<br>`
 - elements are case-insensitive; best standard is lowercase
 - use new lines and indents to make HTML code easier to understand
 
@@ -283,7 +299,7 @@ As Confucius (supposedly) said, *"Knowledge without practice is useless"*
 At the end of each lesson, there will be challenges for you to complete. Please try to complete all of them before you move onto the next lesson. 
 
 #### Flashcards
-Download the flashcards for this lesson [here](https://drive.google.com/file/d/1Oqh1q37D2TrlegIZUhiQ1ZA_BEPuyApt/view?usp=sharing).
+Download the flashcards for this lesson [here](https://drive.google.com/open?id=1Oqh1q37D2TrlegIZUhiQ1ZA_BEPuyApt).
 To use the flash cards, make sure you've setup Anki. If you haven't setup Anki, go back to [Getting Started]({% post_url courses/webhero/2019-01-26-getting-started %}) for instructions.
 
 Once you've signed up for an account, all you have to do is open the app **on your comptuer** and double click on the deck you just downloaded.

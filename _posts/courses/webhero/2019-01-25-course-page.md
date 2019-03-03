@@ -16,4 +16,5 @@ You will learn a lot, starting with basic webpages and progressing towards more 
 ## Intro
 1. [Getting Started]({% post_url courses/webhero/2019-01-26-getting-started %})
 2. [Intro to HTML]({% post_url courses/webhero/html/1-intro/2019-02-01-intro-to-html %})
-2. [Comments and Attributes]({% post_url courses/webhero/html/2-attributes-comments/2019-02-12-comments-attributes %})
+3. [Comments and Attributes]({% post_url courses/webhero/html/2-attributes-comments/2019-02-12-comments-attributes %})
+4. [HTML Head and Boilerplate]({% post_url courses/webhero/html/3-head/2019-02-25-head %})

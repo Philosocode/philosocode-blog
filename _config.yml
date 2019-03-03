@@ -3,7 +3,7 @@ name: "Philosocode"
 description: "Programming and Computer Science Tutorials"
 meta_description: "Clear, comprehensive, easy to understand programming tutorials."
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+favicon: 'assets/images/logo.jpg'
 baseurl: ""
 google_analytics: 'UA-133733967-1'
 disqus: 'Philosocode'

@@ -1,0 +1,13 @@
+<div class="panel__group">
+  <div class="panel panel__default">
+    <div class="panel__heading">
+      <button class="panel__button" data-toggle="collapse" data-target="#{{include.toggle-name}}" >
+        {% if include.button-text %} {{include.button-text}} {% else %} Open {% endif %}
+      </button>
+    </div>
+    <div id="{{include.toggle-name}}" class="panel__collapse collapse">
+      <div class="panel__body">{{include.toggle-text | markdownify }}</div>
+      <div class="panel__footer">{{include.footer}}</div>
+    </div>
+  </div>
+</div>

@@ -8,6 +8,21 @@ categories: [ jekyll ]
 # hidden: true
 ---
 
+## Toggling
+{% capture text-capture %}
+
+```html
+<div class="demo-thats-all-container">  
+    <div class="demo-thats-all-folks">
+      That's All Folks
+    </div>
+</div>
+```
+
+{% endcapture %}
+
+{% include toggle-field.html toggle-name="toggle-thats" button-text="View Answer" toggle-text=text-capture  footer="cheers!" %}
+
 ## Special formatting
 
 As well as bold and italics, you can also use some other special formatting in Markdown when the need arises, for example:
