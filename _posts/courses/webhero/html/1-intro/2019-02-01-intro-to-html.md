@@ -286,8 +286,13 @@ Anything you think I can do better in this lesson?
 Please leave a comment and I'll do my best to reply as soon as I can!
 
 
-## Worksheet
-Here's the worksheet for this lesson: [Lesson 1 Worksheet]({% post_url courses/webhero/html/1-intro/2019-02-01-worksheet %})
+#### Worksheet
+Here's the worksheet for this lesson: [click here!](worksheet)
+
+
+#### Lastly...
+If there was anything you didn't understand, need help with, or think I could explain better, please let me know!
+I appreciate every response and will reply as soon as I can.
 
 ***
 
