@@ -9,6 +9,11 @@ categories: [ jekyll ]
 ---
 
 ## Toggling
+{% toggle %}
+<h1>NICE</h1>
+<h2>So cool</h2>
+{% endtoggle %}
+
 {% capture text-capture %}
 
 ```html

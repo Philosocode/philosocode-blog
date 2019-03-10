@@ -19,30 +19,28 @@ Here's what we're going to learn this lesson:
 ## What is HTML?
 HTML is a language for building web pages. It's used for the content and structure of the web page.
 HTML stands for "hypertext markup language". 
-That's... kind of confusing, so how about we break that down?
 
 "Hypertext" means, "text that links to something". 
-Think about links on websites - hyperlinks. 
-When you click on them, they take you somewhere else.
+Think about links on websites that you can click on. These are hyperlinks: when you click on them, they take you somewhere else.  
 For example, if you [click on this text right here](https://www.google.com), it'll take you to Google. 
-So, hypertext is just text that links to something.
+So, hypertext is just text that links to something. Maybe it's another website, or maybe it's a file, but it links to *something*.
 
 "Markup language" means, "language that uses tags to markup documents".
 
-Let's say you're *sooo* excited about programming that you decide to write an essay about HTML.
-When you're done, you send it to me so I can correct it and grade you on your enthusiasm for web development.
+Let's say you're *sooo* excited about programming that you decide to write an essay about HTML.  
+When you're done, you send it to me. Then, I correct your essay and grade you on your enthusiasm for web development.
 Before I send it back to you, I can highlight the parts that need improvement, underline spelling and grammar mistakes, and emphasize the parts I like.
 
-Those are the two sides of the coin.
-1. The text content / words that you write
+Those are the two sides of the coin:
+1. The text content or words that you write
 2. The "markup" I add to the content
 
 That's what markup languages do. 
-They use tags to tell the computer how to organize and format the text.
+They use "tags" to tell the computer how to organize and format the text.
 
-Do you want to emphasize some text? 
-Add some line breaks? 
-Style some text differently? 
+Do you want to emphasize some text?  
+Add some line breaks?  
+Style some text differently?  
 Organize your text inside of lists or tables?
 
 You can do all of this (and much more) using HTML.
@@ -71,20 +69,19 @@ There are letters and numbers inside of each `<tag>`
 You **need** HTML to build a web page. You can make a website without CSS, though it won't look very nice. 
 You can also make a website without JavaScript, though it won't be "interactive". But HTML is essential.
 
-Don't worry if you don't know what CSS and JavaScript are - you'll learn about these in future lessons!
-
-The main point: HTML is necessary. It's the backbone of your web page.
+(Don't worry if you don't know what CSS and JavaScript are - you'll learn about these in future lessons!)
 
 
 ## Let's Dive In
 Let's start writing code. 
 Please visit this link: [click on me!](https://codepen.io/pen/).  
 This is CodePen, a free, online code editor.
-I know I asked you to download VS Code, but CodePen is great for starting out. You can write code and the results will show up (almost) instantly on the screen.  
+I know I asked you to download the VS Code text editor, but CodePen is great for starting out.  
+You can write code and the results will show up (almost) instantly on the screen, whereas using VS Code will require a bit more work.
 You don't need to make an account on CodePen unless you want to save your code.
 
 When you open the site, you should see 3 windows: HTML, CSS, JS.  
-You'll only be using the HTML window, so resize the other windows by clicking and dragging the bars and moving them to the right.
+You'll only be using the HTML window, so resize the other windows by clicking and dragging the bars and moving them.
 ![codepen](codepen-1.jpg)
 
 Now, I want you to do 3 things:
@@ -289,47 +286,8 @@ Anything you think I can do better in this lesson?
 Please leave a comment and I'll do my best to reply as soon as I can!
 
 
-## Praxis
-Studying is great and all, but you know what really helps with learning? 
-
-Practice.  
-
-As Confucius (supposedly) said, *"Knowledge without practice is useless"*
-
-At the end of each lesson, there will be challenges for you to complete. Please try to complete all of them before you move onto the next lesson. 
-
-#### Flashcards
-Download the flashcards for this lesson [here](https://drive.google.com/open?id=1Oqh1q37D2TrlegIZUhiQ1ZA_BEPuyApt).
-To use the flash cards, make sure you've setup Anki. If you haven't setup Anki, go back to [Getting Started]({% post_url courses/webhero/2019-01-26-getting-started %}) for instructions.
-
-Once you've signed up for an account, all you have to do is open the app **on your comptuer** and double click on the deck you just downloaded.
-The flash cards should then be added.
-
-#### Challenge: Find The Errors
-For each snippet of code, figure out what's wrong.
-
-```html
-<h1>I am some HTML<h1>
-<h2>But something is wrong...<h2>
-```
-
-```html
-<div>
-	<h1>What about now?
-	</div>
-</h1>
-```
-
-```html
-<div>I am some html<h1>This is a very nice line</h1><h2>But it's starting to get too long</h2></div>
-```
-
-
-#### Challenge: Element Experiment
-1. Go to this site: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
-2. Find 5 **NEW** elements that interest you (I'd recommend elements related to text; they'll be easier to work with)
-3. Try and use them in CodePen. Read about their usage on the website linked in step 1.
-4. (OPTIONAL) Share your project URL in the comments below. You need a CodePen account to do this.
+## Worksheet
+Here's the worksheet for this lesson: [Lesson 1 Worksheet]({% post_url courses/webhero/html/1-intro/2019-02-01-worksheet %})
 
 ***
 

@@ -19,28 +19,12 @@ image: assets/images/webhero/html/0-getting-started.jpg
 We will start from the very beginning. 
 I will assume that you know nothing about programming, so as long as you're generally familiar with how to use a computer, you will be okay.
 
+
 ## Setup
 The first thing you'll need is a browser... Well, if you're reading this, I guess you already have that. If you don't have a preference, I would recommend using Google Chrome because it will make following along with the lessons easier. However, most modern browsers should be okay.
 
 You'll also need a text editor (program to write code in). I would recommend getting "VS Code", which is awesome and free to use.
 You can download it [here](https://code.visualstudio.com) or by searching for it on Google. There are other great text editors out there, but for this tutorial, I will assume that you are using VS Code.
-
-
-## Anki
-This is optional, but highly recommended. After each lesson, I will be posting flash cards you can use to review what you learned.
-For this, we will be using a program called "Anki" (Japanese for "memorization"). The great thing about Anki is it's (mostly) free and uses an "SRS algorithm"....
-Now, I did say "mostly" free. Anki is completely free on computer and Android, but if you want to use it on an iPhone, you'll need to pay for the app.
-If you have an iPhone and don't want to pay, you can use the web version (available on all devices).
-"SRS algorithm" is a fancy term but the meaning is simple: Anki will show the flash cards just before you're about to forget them, so you can learn new things very efficiently.
-
-Quick guide to setting up Anki:
-1. [download Anki](https://apps.ankiweb.net) and install it on your computer.
-1. Download and install the application onto your computer
-2. Register for an account on [AnkiWeb](https://ankiweb.net/about)
-4. Confirm your email
-5. On the Anki app (computer, mobile), sign into your account
-
-And with that, you should be good to go!
 
 
 ## Course Format
