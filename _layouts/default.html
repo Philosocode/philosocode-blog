@@ -68,11 +68,14 @@
                 </li>
 
                 {% if page.url == "/courses/webhero" %}
-                <li class="nav-item active">
+                <li class="nav-item active dropdown">
                 {% else %}
-                <li class="nav-item">
+                <li class="nav-item dropdown">
                 {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/courses/webhero">Web HERO</a>
+                    <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Courses</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="nav-link dropdown-item" href="{{ site.baseurl }}/courses/webhero">Web Hero</a>
+                    </div>
                 </li>
                 
                 {% if page.url == "/about" %}
