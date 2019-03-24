@@ -1,7 +1,7 @@
 ---
 layout: post-imageless
 title:  "Intro to HTML - Worksheet"
-categories: [ webhero ]
+categories: worksheet
 comments: true
 image: assets/images/webhero/html/course-image.jpg
 # featured: true

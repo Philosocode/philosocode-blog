@@ -13,8 +13,17 @@ hidden: true
 This course will cover the fundamentals of web development: HTML, CSS, and JavaScript.  
 You will learn a lot, starting with basic webpages and progressing towards more and more complex web applications.
 
+<!-- Get all the Web Hero lessons -->
+{% assign lessons = site.webhero | where: "categories", "lesson" %}
+
 ## Intro
-1. [Getting Started]({% post_url courses/webhero/2019-01-26-getting-started %})
-2. [Intro to HTML]({% post_url courses/webhero/html/1-intro/2019-02-01-intro-to-html %})
-3. [Comments and Attributes]({% post_url courses/webhero/html/2-attributes-comments/2019-02-12-comments-attributes %})
-4. [HTML Head and Boilerplate]({% post_url courses/webhero/html/3-head/2019-02-25-head %})
+<!-- Get the Intro lessons -->
+<ol>
+{% for lesson in lessons %}
+  {% if lesson.tags contains "intro" %}
+    <li>
+      <a href="{{lesson.url}}">{{ lesson.title }}</a>
+    </li>
+  {% endif %}
+{% endfor %}
+</ol>

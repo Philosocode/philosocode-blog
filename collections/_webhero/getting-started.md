@@ -2,7 +2,7 @@
 layout: post-imageless
 title:  "Getting Started"
 author: Tam
-categories: [ webhero ]
+categories: lesson
 comments: true
 image: assets/images/webhero/html/0-getting-started.jpg
 # featured: true

@@ -1,9 +1,10 @@
 ---
 layout: post-imageless
 title:  "Intro to HTML"
-categories: [ webhero ]
+categories: lesson
 comments: true
 image: assets/images/webhero/html/course-image.jpg
+tags: intro
 # featured: true
 # hidden: true
 ---
@@ -287,7 +288,7 @@ Please leave a comment and I'll do my best to reply as soon as I can!
 
 
 #### Worksheet
-Here's the worksheet for this lesson: [click here!](worksheet)
+Here's the worksheet for this lesson: [click here!](worksheet.md)
 
 
 #### Lastly...

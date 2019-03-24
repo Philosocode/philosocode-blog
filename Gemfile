@@ -16,4 +16,5 @@ group :jekyll_plugins do
     gem 'jekyll-archives'
     gem 'jekyll-paginate'
     gem 'jekyll-postfiles'
+    gem 'jekyll-relative-links'
 end

@@ -1,7 +1,7 @@
 ---
 layout: post-imageless
 title: "HTML Head - Worksheet"
-categories: [webhero]
+categories: worksheet
 comments: true
 image: assets/images/webhero/html/course-image.jpg
 # featured: true
