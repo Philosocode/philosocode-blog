@@ -3,7 +3,6 @@ layout: post-imageless
 title: "HTML Comments and Attributes"
 categories: lesson
 comments: true
-image: assets/images/webhero/html/course-image.jpg
 tags: intro
 # featured: true
 # hidden: true

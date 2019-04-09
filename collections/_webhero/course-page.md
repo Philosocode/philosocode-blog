@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "COURSE: Web Hero"
+title:  "Web Hero"
 author: Tam
 categories: [ webhero ]
 permalink: courses/webhero

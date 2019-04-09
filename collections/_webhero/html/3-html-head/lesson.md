@@ -3,7 +3,6 @@ layout: post-imageless
 title: "HTML Head"
 categories: lesson
 comments: true
-image: assets/images/webhero/html/course-image.jpg
 tags: intro
 # featured: true
 # hidden: true
@@ -252,10 +251,8 @@ This lesson was heavy on theory, but the upcoming lessons will be more practical
 I've already said this a number of times, but don't worry about trying to memorize every little detail.  
 This lesson was just meant to familiarize you with the `<head>` so when you work on your own websites, the tags will be not be completely new to you. If you ever forget something, you can always refer back to this page or Google it!
 
-
 #### Worksheet
 Here's the worksheet for this lesson: [click here!](worksheet)
-
 
 #### Lastly...
 If there was anything you didn't understand, need help with, or think I could explain better, please let me know!
