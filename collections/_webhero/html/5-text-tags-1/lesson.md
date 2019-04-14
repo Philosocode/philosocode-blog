@@ -22,13 +22,13 @@ Don't come back until you've memorized all of them!
 #### Are you crazy? There are way too many tags!
 Okay, I was just kidding. But it leads into the next point I want to make:
 
-#### The 80/20 Principle
-Of the ~90 tags listed on that site, you'll only use 10-15 on a regular basis.  
+#### Focus On The Essential
+Of the ~90 tags listed on that site, **you'll only use 10-15 on a regular basis.**  
 So don't feel overwhelmed by the amount of tags you see.  
 Remember: don't memorize what you can easily look up.
 
 
-## Heading Tags
+## \<hX> Heading Tags
 You've already seen these tags before. They look like this:
 ``` html
 <h1>Hello again!</h1>
@@ -52,26 +52,112 @@ Visit this link to find out http://bfy.tw/N1by
 
 #### But what does it mean?
 `<h1>` is the main, most important heading. There should only be one per page.  
-`<h2>` is a subheading. You can think of it like the chapters in a book.
-`<h3>` to `<h6>` are like sub-sub-subheadings. You can think of these like sections
-in a chapter.
+`<h2>` is a subheading.
+`<h3>` to `<h6>` are like sub-sub-subheadings.
 
 MDN (listed in the Lesson Sources) has a great analogy.
 You can think of `<h1>` as the title of the book.
 `<h2>` is like a chapter in the book - there can be many.
-`<h3>` to `<h6>` are like sections in the chapter.
+`<h3>` to `<h6>` are like sections within each chapter.
 
 #### How do I use the heading tags?
 This is up to you to decide. 
 There's nothing stopping you from using `<h1>` everywhere. 
-If you don't believe me, then visit CodePen and write a bunch of `<h1>` elements. 
+Actually, you can go ahead and try it. Put a bunch of `<h1>` elements in your HTML file.
 They will still show up properly.
 
-However, I would not recommend this (why? You'll find out soon)
+However, this is not recommended (why? You'll find out soon)
 
-Think about what makes sense for your content and keep in mind that the "importance"
-of the heading decreases as you move from `<h1>` to `<h6>`.
+Think about what makes sense for your content and keep in mind that:
+- `<h1>` is the most important heading and should only be use once per page.
+- the importance of the heading decreases as you move from `<h1>` to `<h6>`.
 
+
+## \<p> Paragraph Tag
+`<p>` represents a paragraph. This is where you put your regular, non-heading text. 
+What do I mean by "regular" text? A good example are the words you're reading right now. 
+They're just normal words, like the hundreds to thousands of words that make up 
+the chapter of a book.
+
+#### Block-Level
+`<p>` is a "block-level" element, meaning each `<p>` element is put on a new line. 
+You're probably thinking, "what does that mean?"
+
+Let's look at an example.
+
+#### Challenge: \<p> Tags VS Tags
+Is there a difference between these 2 snippets of code?
+```html
+<p>
+This is some text.
+This is some more text.
+And some more text!
+</p>
+```
+
+```html
+<p>This is some text.</p>
+<p>This is some more text.</p>
+<p>And some more text!</p>
+```
+
+{% toggle %}
+In the first snippet, all the text is on 1 line.  
+`This is some text. This is some more text. And some more text!`
+
+In the second snippet, there are 3 lines in total. Each `<p>...</p>` element is put on a new line. 
+`This is some text.`  
+`This is some more text.`  
+`And some more text!`
+{% endtoggle %}
+
+We'll cover block-level elements later in more detail, so consider this a sneak peek!
+
+## \<br> and \<hr>
+#### Challenge: Try The Tags
+What's the best way to see what a tag does? Use it!  
+Add `<br>` and `<hr>` to your HTML file and see what happens.
+
+{% toggle %}
+`<br>` adds a line break  
+`<hr>` adds a horizontal line. It stands for "horizontal rule"
+{% endtoggle %}
+
+You can also add multiple `<br>` to create multiple line breaks.  
+For example, add this to your HTML file and see what happens:
+```html
+<h1>TITLE</h1>
+<br>
+<br>
+<br>
+<br>
+<h2>Lots of space...</h2>
+```
+
+#### Challenge: Is There A Difference?
+Here's a little review from lesson 1. Is there a difference between these 2 examples?
+```html
+<!-- <br> on new line -->
+<h1>TITLE</h1>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h2>Lots of space...</h2>
+```
+
+```html
+<!-- All <br> on the same line -->
+<h1>TITLE</h1>
+<br><br><br><br><br>
+<h2>Lots of space...</h2>
+```
+
+{% toggle %}
+They both produce the same result.
+There are some exceptions, but in general, white space is ignored in HTML.
+{% endtoggle %}
 
 
 ## Finishing Off
@@ -92,15 +178,15 @@ Actually, there's something I haven't told you yet...
 
 ![A Lie](what-if.jpg)
 
-By default, the browser will do 2 things:
+By default, web browsers will do 2 things:
   - make the heading elements bold
-  - make `<h1>` the biggest, `<h2>` smaller than `<h1>`, etc
+  - make `<h1>` the biggest, `<h2>` smaller than `<h1>`, `<h3>` smaller than `<h2>`, and so on
 
 However, you can use CSS to change the appearance of the headings.
 With CSS, you can change the colour, size, and weight (normal, italics, bold) of a text tag.
 This includes heading tags.
 
-Basically, you can make an `<h1>` look like an `<h6>`.
+Basically, using CSS, you can make an `<h1>` look like an `<h6>`.
 
 ***
 

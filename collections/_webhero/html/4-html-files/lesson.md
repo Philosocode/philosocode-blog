@@ -116,6 +116,74 @@ On Windows, you may have to choose which program you want to use to open the fil
 Whenever you change your HTML file, you also need to refresh the page before you see the changes 
 (Ctrl + R on Windows/Linux, Cmd + R on Mac).
 
+
+## OPTIONAL: Using The "Live Server" Extension
+NOTE: this is **completely optional!**  
+Feel free to skip to the next lesson if you're satisfied.  
+But if you're curious and want to learn more...
+
+The knowledge that you gained in this lesson is more than enough to get started.  
+However, there are some annoying things...
+1. You have to manually find the HTML file and open it in your browser
+2. You have to manually refresh the page to see changes
+
+There's a great extension for VS Code called "Live Server" that will make your (programming) life easier!  
+Live Server addresses the two pain points mentioned above.
+
+1. All you have to do is open the folder containig your project and hit a button.
+2. Changes appear automatically when you save your file. 
+
+Overall, it's easy to setup and super convenient.
+
+If you're using a different text editor, you can Google "your-text-editor live server".  
+However, for this guide, I'll assume you're using VS Code.
+
+
+## Installing "Live Server"
+#### Step 1. Install The Extension
+First, click on the icon for extensions. It looks like a square inside of a square.
+![Extension Icon](extension-icon.jpg)
+
+Next, in the "Search Extensions..." text box, type "live server". Click on the little green "Install" button to install it.  
+![Install Extension](install-extension.jpg)
+
+Yep, it was that simple.
+
+#### Step 2. Open The Folder
+Before you can use Live Server, make sure you put your file(s) in a folder.  
+In order to use Live Server, you'll open the **folder** instead of the file.
+
+**Mac**  
+If you have VS Code in your dock, you can click and drag the folder onto the VS Code icon.  
+![Click & Drag](click-and-drag.jpg)
+
+If not, follow these steps:
+1. Make sure VS Code is open. Press Cmd + O (oh) or File > Open
+2. Click on the folder **one time** so it's highlighted. Don't go inside the folder (refer to the picture below)
+3. Click "Open"
+![Highlighted](highlighted.jpg)
+
+**Windows**
+1. **Right click** on the folder
+2. Choose "Open with Code"  
+![Open With Code](open-with-code.jpg)
+
+
+#### Step 3. Start Live Server
+After you opened the folder in VS Code, find and open your HTML file.
+In the bar at the bottom-right of VS Code, you should see "Go Live".
+![Go Live](go-live.jpg)
+
+#### Step 4. Make Changes
+After clicking on "Go Live", your browser should open automatically and you should see your HTML page.  
+To test that Live Server is running, change your HTML file and save it (Ctrl/Cmd + S or File > Save).
+You should be able to see the changes without refreshing your browser!
+
+#### Step 5. Close Live Server
+When you're done, you can just close VS Code and the server will stop.  
+Alternatively, you can click on the "Port: 5500" in the bar on the bottom-right.
+![Stop Live Server](stop-live-server.jpg)
+
 ***
 
 ## Congratulations!
