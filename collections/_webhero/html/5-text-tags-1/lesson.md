@@ -10,7 +10,9 @@ tags: intro
 
 ## Overview
 Here's what you're going to learn this lesson:
-- Tags related to text
+- Heading tags
+- Paragraph tags
+- Line break & horizontal rule
 
 ---
 
