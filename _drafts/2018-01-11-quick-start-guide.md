@@ -16,6 +16,8 @@ categories: [ jekyll ]
 
 {% capture text-capture %}
 
+[lesson #1]({% link _webhero/html/1-intro-to-html/lesson.md %})
+
 ```html
 <div class="demo-thats-all-container">  
     <div class="demo-thats-all-folks">

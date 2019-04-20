@@ -25,8 +25,9 @@ Don't come back until you've memorized all of them!
 Okay, I was just kidding. But it leads into the next point I want to make:
 
 #### Focus On The Essential
-Of the ~90 tags listed on that site, **you'll only use 10-15 on a regular basis.**  
-So don't feel overwhelmed by the amount of tags you see.  
+I hope you don't feel too overwhelmed by the amount of tags you just saw.<br>
+Of the ~90 tags listed on that site, **you'll only use 10-15 on a regular basis.**<br>
+And for those 10-15 tags, you'll use them so much, remembering them won't be a problem.<br>
 Remember: don't memorize what you can easily look up.
 
 
@@ -53,33 +54,58 @@ Visit this link to find out http://bfy.tw/N1by
 {% endtoggle %}
 
 #### But what does it mean?
-`<h1>` is the main, most important heading. There should only be one per page.  
+`<h1>` is the main, most important heading. There should only be one per page.<br>
 `<h2>` is a subheading.
-`<h3>` to `<h6>` are like sub-sub-subheadings.
+`<h3>` to `<h6>` are sub-subheadings.
 
 MDN (listed in the Lesson Sources) has a great analogy.
-You can think of `<h1>` as the title of the book.
-`<h2>` is like a chapter in the book - there can be many.
-`<h3>` to `<h6>` are like sections within each chapter.
+You can think of `<h1>` as the title of the book. Usually, your book has only 1 title.
+`<h2>` is like a chapter in the book; you can have many chapters.
+`<h3>` to `<h6>` are like sections in each chapter.
 
 #### How do I use the heading tags?
-This is up to you to decide. 
-There's nothing stopping you from using `<h1>` everywhere. 
-Actually, you can go ahead and try it. Put a bunch of `<h1>` elements in your HTML file.
-They will still show up properly.
+This is up to you to decide.<br>
+If you were trying to represent a news article using HTML, you could do something like this:
 
-However, this is not recommended (why? You'll find out soon)
+```html
+<!-- Main Heading -->
+<h1>Programming Is The Future</h1>
+<!-- Sub Heading -->
+<h2>At least, according to the latest research</h2>
+<!-- Content -->
+<p>The latest research shows that programming is the future. 
+Blah blah blah blah statistics and research</p>
+```
+
+And the HTML output looks like this:
+![Article Example](article-example.jpg)
 
 Think about what makes sense for your content and keep in mind that:
 - `<h1>` is the most important heading and should only be use once per page.
 - the importance of the heading decreases as you move from `<h1>` to `<h6>`.
 
+#### Can I use multiple \<h1>s?
+Earlier, I said that there should only be one `<h1>` per page.<br>
+But is it possible to use more than one?<br>
+Actually, why don't you go ahead and try it? 
+
+#### Challenge: Use Many \<h1> Tags
+1. Create an HTML file like you did in the [previous lesson]({% link _webhero/html/4-html-files/lesson.md %}).
+2. Put a bunch of `<h1>` elements in your HTML file.
+3. See what shows up
+
+{% toggle %}
+All the `<h1>` elements should show up properly.<br>
+There's nothing stopping you from using `<h1>` everywhere.<br>
+Why only 1 then?<br>
+You'll find out soon (in the next lesson, to be exact).
+{% endtoggle %}
+
 
 ## \<p> Paragraph Tag
 `<p>` represents a paragraph. This is where you put your regular, non-heading text. 
-What do I mean by "regular" text? A good example are the words you're reading right now. 
-They're just normal words, like the hundreds to thousands of words that make up 
-the chapter of a book.
+What do I mean by "regular" text? A good example are the words in this sentence.
+They're just normal words, like the hundreds to thousands of words that make up the chapter of a book.
 
 #### Block-Level
 `<p>` is a "block-level" element, meaning each `<p>` element is put on a new line. 
@@ -117,7 +143,9 @@ We'll cover block-level elements later in more detail, so consider this a sneak 
 
 ## \<br> and \<hr>
 #### Challenge: Try The Tags
-What's the best way to see what a tag does? Use it!  
+Question: What's the best way to see what a tag does?<br>
+Answer: Use it!
+
 Add `<br>` and `<hr>` to your HTML file and see what happens.
 
 {% toggle %}
@@ -125,10 +153,12 @@ Add `<br>` and `<hr>` to your HTML file and see what happens.
 `<hr>` adds a horizontal line. It stands for "horizontal rule"
 {% endtoggle %}
 
-You can also add multiple `<br>` to create multiple line breaks.  
+You can add multiple `<br>` to create multiple line breaks.  
 For example, add this to your HTML file and see what happens:
 ```html
 <h1>TITLE</h1>
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -158,7 +188,7 @@ Here's a little review from lesson 1. Is there a difference between these 2 exam
 
 {% toggle %}
 They both produce the same result.
-There are some exceptions, but in general, white space is ignored in HTML.
+In general, white space is ignored in HTML (there are some exceptions).
 {% endtoggle %}
 
 
@@ -190,17 +220,25 @@ This includes heading tags.
 
 Basically, using CSS, you can make an `<h1>` look like an `<h6>`.
 
-***
+#### I'm still confused...
+When you start learning CSS (in a couple more lessons), this will make sense.<br>
+The main takeaway is that that the appearance of tags can be changed using CSS.
 
+***
 
 ## Summary
 Here's what we covered this lesson:  
 - heading tags: `<h1>` to `<h6>`
-  + 1 is the main, most important heading. There should only be one per page
-  + importance decreases as you move from 1 to 6 (subheadings)
+  + `<h1>` is the main, most important heading. There should only be one per page
+  + importance decreases as you move from 1 to 6 (subheadings, sub-subheadings)
+- paragraph tags: `<p>` 
+  + represent normal text
+  + block-level elements (each one is put on a new line)
+- horizontal line/rule: `<hr>`
+- line break: `<br>`
 
 #### Worksheet
-Here's the worksheet for this lesson: [click here!](worksheet)
+No worksheet for this lesson (will be included in the next lesson).
 
 
 #### Lastly...
