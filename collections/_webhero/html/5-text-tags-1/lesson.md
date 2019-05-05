@@ -40,7 +40,7 @@ You've already seen these tags before. They look like this:
 
 `<h1>` is the biggest and represents the main heading.  
 You've probably already noticed, but as the number gets bigger, the size of the heading
-decreases.  
+decreases.
 
 `<h2>` is a bit smaller. It is a sub-heading.  
 
@@ -98,7 +98,7 @@ Actually, why don't you go ahead and try it?
 All the `<h1>` elements should show up properly.<br>
 There's nothing stopping you from using `<h1>` everywhere.<br>
 Why only 1 then?<br>
-You'll find out soon (in the next lesson, to be exact).
+You'll find out in a few lessons when we cover "semantic" HTML!
 {% endtoggle %}
 
 
@@ -108,7 +108,7 @@ What do I mean by "regular" text? A good example are the words in this sentence.
 They're just normal words, like the hundreds to thousands of words that make up the chapter of a book.
 
 #### Block-Level
-`<p>` is a "block-level" element, meaning each `<p>` element is put on a new line. 
+`<p>` is a "block level" element, meaning each `<p>` element is put on a new line. 
 You're probably thinking, "what does that mean?"
 
 Let's look at an example.
@@ -221,7 +221,7 @@ This includes heading tags.
 Basically, using CSS, you can make an `<h1>` look like an `<h6>`.
 
 #### I'm still confused...
-When you start learning CSS (in a couple more lessons), this will make sense.<br>
+When you start learning CSS (in a few more lessons), this will make sense.<br>
 The main takeaway is that that the appearance of tags can be changed using CSS.
 
 ***
