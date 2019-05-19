@@ -29,6 +29,7 @@ plugins:
   - jekyll-archives
   - jekyll-paginate
   - jekyll-relative-links
+  - jekyll-archives
     
 # Archives
 jekyll-archives:
