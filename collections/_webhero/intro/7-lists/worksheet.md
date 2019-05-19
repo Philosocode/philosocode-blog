@@ -26,4 +26,24 @@ Create this list using HTML:<br>
 
 Solution:
 {% toggle %}
+```html
+<h3>Top 5 Cutest Animals</h3>
+<ol>
+  <li>Dog
+    <ul>
+      <li>Golden Retriever</li>
+      <li>Husky</li>
+      <li>Corgi</li>
+    </ul>
+  </li>
+  <li>Monkey</li>
+  <li>Bat</li>
+  <li>Hippo</li>
+  <li>Fish
+    <ul>
+      <li>Blob Fish</li>
+    </ul>
+  </li>
+</ol>
+```
 {% endtoggle %}
