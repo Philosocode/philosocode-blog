@@ -90,7 +90,7 @@ But is it possible to use more than one?<br>
 Actually, why don't you go ahead and try it? 
 
 #### Challenge: Use Many \<h1> Tags
-1. Create an HTML file like you did in the [previous lesson]({% link _webhero/intro/4-html-files/lesson.md %}).
+1. Create an HTML file like you did in the [previous lesson]({% link _webhero/intro-html/4-html-files/lesson.md %}).
 2. Put a bunch of `<h1>` elements in your HTML file.
 3. See what shows up
 

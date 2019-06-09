@@ -16,11 +16,22 @@ You will learn a lot, starting with basic webpages and progressing towards more 
 <!-- Get all the Web Hero lessons -->
 {% assign lessons = site.webhero | where: "categories", "lesson" %}
 
-## Intro
+## Introducing HTML
 <!-- Get the Intro lessons -->
 <ol>
 {% for lesson in lessons %}
   {% if lesson.tags contains "intro" %}
+    <li>
+      <a href="{{lesson.url}}">{{ lesson.title }}</a>
+    </li>
+  {% endif %}
+{% endfor %}
+</ol>
+
+## Introducing CSS
+<ol>
+{% for lesson in lessons %}
+  {% if lesson.tags contains "intro-css" %}
     <li>
       <a href="{{lesson.url}}">{{ lesson.title }}</a>
     </li>

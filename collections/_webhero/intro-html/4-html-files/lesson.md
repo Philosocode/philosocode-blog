@@ -95,7 +95,7 @@ All you have to do now is find your file, select it, and click "Open".
 
 
 ## HTML Boilerplate
-Remember the HTML boilerplate introduced in [lesson #1]({% link _webhero/intro/1-intro-to-html/lesson.md %})? We're going to add it to the HTML file you created.<br>
+Remember the HTML boilerplate introduced in [lesson #1]({% link _webhero/intro-html/1-intro-to-html/lesson.md %})? We're going to add it to the HTML file you created.<br>
 If you're using VS Code or Sublime Text, there's a cool shortcut that will save you a lot of time.<br>
 Note that this only works if you're in an HTML file (file that ends with `.html`).
 

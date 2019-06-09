@@ -186,6 +186,18 @@ If you want to put it under Cake, then:
 Notice the order: `<li> -> <ul> -> <li>`.<br>
 As with anything... practice makes better!
 
+## A Brief Summary
+So far, we've just scratched the surface of HTML.
+There's still a lot more ground to cover, but you've actually learned a lot over the last several lessons:
+- HTML tags and attributes
+- comments
+- the `<head>` tag
+- creating and opening HTML files
+- text-related tags
+- lists
+
+In the next section, you're going to learn about the next fundamental building block of web development: CSS!
+
 ***
 
 ## Summary
