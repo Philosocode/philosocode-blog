@@ -142,9 +142,9 @@ Both "clam" and "CSS" start with the letter C, and clams are found in the "C" (g
 #### 3. Property
 The selector is the element you want to style (`h1`)
 The property is what you want to add to or change about an element (`color`)
-Some examples: changing the text colour, adding animations, or adding a border around the element.
+Some examples: changing the text color, adding animations, or adding a border around the element.
 
-In the example below, we want to change the text colour of the `<h1>` tag:
+In the example below, we want to change the text color of the `<h1>` tag:
 ```css
 h1 {
   color:
@@ -152,12 +152,12 @@ h1 {
 ```
 
 #### A Note On Spelling
-Pay attention to spelling: color with no "u". `color`, not `colour`. Remember to use American-English spelling, not British-English spelling.
+Pay attention to spelling: color with no "u". `color`, not `color`. Remember to use American-English spelling, not British-English spelling.
 
 #### 4. Value
 The value is what you want to set the property to.
-For example, if you want to change the colour, the value might be blue.
-- property: colour, value: blue
+For example, if you want to change the color, the value might be blue.
+- property: color, value: blue
 Or if you wanted to change the text size:
 - property: font-size, value: 200%
 
