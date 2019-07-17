@@ -58,7 +58,3 @@ What should you always include with `target="_blank"`?
 `rel="noopener"`
 - e.g. `<a href="blah" target="_blank" rel="noopener"></a>`
 {% endtoggle %}
-
-## Challenges
-#### ROYGBIV Rainbow 🌈🌈🌈
-It's time to create your own rainbow with HTML and CSS.
