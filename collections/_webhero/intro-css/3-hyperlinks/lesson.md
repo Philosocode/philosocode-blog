@@ -178,7 +178,7 @@ Here's the worksheet for this lesson: [click here!](worksheet)
 #### Lastly...
 If there was anything you didn't understand, need help with, or think I could explain better, please let me know!
 
-I appreciate every response and will reply as soon as I can. If you want to learn more, you can do some good old Googling.
+I appreciate every response and will reply as soon as I can.
 
 ***
 

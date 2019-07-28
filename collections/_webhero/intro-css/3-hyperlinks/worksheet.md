@@ -1,6 +1,6 @@
 ---
 layout: post-imageless
-title: "HTML - Hyperlinks"
+title: "HTML - Hyperlinks - Worksheet"
 categories: worksheet
 comments: true
 image: assets/images/webhero/html/course-image.jpg

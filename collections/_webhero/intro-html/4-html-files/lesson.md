@@ -8,17 +8,17 @@ tags: intro
 # hidden: true
 ---
 
+## Overview
+Here's what you're going to learn this lesson:
+- how to create and open HTML files
+
+---
 ## It's Time
 So far, you've used CodePen to create and run your HTML code.
 CodePen is a great tool that makes it easy to start coding. If you want, you can continue using it throughout these tutorials.  
 However, knowing how to setup a project on your computer is important. And when you start working on more serious projects, this is
 usually how you'll be working.
 
-## Overview
-Here's what you're going to learn this lesson:
-- how to create and open HTML files
-
----
 ## Creating HTML Files
 #### Text Editor
 It's finally time to use the text editor you downloaded in [Getting Started]({% link _webhero/getting-started.md %}). 
