@@ -19,7 +19,7 @@ Here's what you're going to learn this lesson:
 From now on, we'll be jumping between HTML and CSS (and later, JavaScript).
 
 You might be asking, **"Why? Isn't it easier to just stick with one topic at a time?"**<br>
-Just Google "interleaving learning", there's a lot of research that suggests that this way of learning is more effective.
+Check out this video for info on "interleaving" (and other effective learning strategies): https://youtube.com/watch?v=CPxSzxylRCI
 
 ## What Are Hyperlinks?
 Anyone who's spent time on the Internet should know what these are.
