@@ -217,3 +217,4 @@ I appreciate every response and will reply as soon as I can.
 - [MDN - Fundamental text and font styling](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals)
 - [MDN - CSS reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 - [CSS Font Stack](https://www.cssfontstack.com)
+- [Quirks Mode - Font Weight](https://www.quirksmode.org/css/text/fontweight.html)
